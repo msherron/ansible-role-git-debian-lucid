@@ -1,7 +1,5 @@
 # Ansible Role: Git
 
-[![Build Status](https://travis-ci.org/geerlingguy/ansible-role-git.svg?branch=master)](https://travis-ci.org/geerlingguy/ansible-role-git)
-
 Installs Git, a distributed version control system, on any RHEL/CentOS or Debian/Ubuntu Linux system.
 
 ## Requirements
@@ -40,7 +38,7 @@ None.
 
     - hosts: servers
       roles:
-        - { role: geerlingguy.git }
+        - { role: msherron.git=debian-lucid }
 
 ## License
 
@@ -48,4 +46,4 @@ MIT / BSD
 
 ## Author Information
 
-This role was created in 2014 by [Jeff Geerling](http://jeffgeerling.com/), author of [Ansible for DevOps](http://ansiblefordevops.com/).
+This role is a fork of a role created in 2014 by [Jeff Geerling](http://jeffgeerling.com/), author of [Ansible for DevOps](http://ansiblefordevops.com/).
